@@ -48,7 +48,7 @@
     color: white;
     font-size: var(--logo-font-size, 5rem);
 
-    height: calc(0.8 * var(--logo-font-size, 5rem));
+    /* height: calc(0.8 * var(--logo-font-size, 5rem)); */
 }
 
 .footer {
