@@ -15,7 +15,7 @@
 
 :root {
     --white: rgb(255, 255, 255, 0.8);
-    --dark-green: rgba(89,109,72,255);
+    --dark-green: #596D48;
 }
 
 .container {
@@ -103,7 +103,7 @@ p + p {
 form {
     background-color: white;
     width: 100%;
-    padding: 1.5rem 0 1.5rem var(--left-gap, 3rem);
+    padding: 1.5rem 0 2rem var(--left-gap, 3rem);
 
     box-shadow: 5px 5px 8px rgb(202, 202, 202);
 }
@@ -112,7 +112,7 @@ form h1 {
     font-size: 1.5rem;
     font-weight: 600;
     
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .bottom {
@@ -146,4 +146,40 @@ form h1 {
     text-decoration: none;
 
     font-weight: 600;
+}
+
+.form-container {
+    width: 75%;
+    gap: 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: grey;
+}
+
+input {
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    width: 250px;
+
+    padding: 8px;
+    font-size: 1rem;
+}
+
+input:focus {
+    box-shadow: 2px 2px 8px rgb(144, 144, 144);
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2px;
+    margin-right: 50px;
 }
